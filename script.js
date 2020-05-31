@@ -49,7 +49,7 @@ for(var i=1;i<=20;i++)
   }
   result1.classList.add("visible");
 }
-var percent = Math.floor(sum*100/7);
+var percent = Math.floor(sum*100/20);
 var final = document.querySelector("#finalResult");
 if(percent>90)
 final.innerHTML= percent+"/100 Excellent";
