@@ -1,0 +1,50 @@
+h1 {
+  font-family: serif;
+}
+
+.she{
+  visibility: hidden;
+width: 40px;
+height: 25px;
+margin-bottom: 10px;
+border-radius: 0;
+border-width: 1px;
+text-align: center;
+-moz-appearance: textfield;
+ -webkit-appearance: textfield;
+}
+
+.she:focus {
+  border-color: red;
+}
+
+button
+{
+  padding: 10px;
+  border: solid;
+  border-color: #666666;
+  border-width: 2px;
+  border-radius: 0;
+}
+
+.label{
+  visibility: hidden;
+}
+
+.result-f {
+visibility: hidden;
+}
+
+#final-result {
+margin-left: 50px;
+visibility: hidden;
+}
+
+.hidden-type {
+  visibility: hidden;
+  margin-bottom: 10px;
+}
+
+.visible {
+  visibility: visible;
+}
